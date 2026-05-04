@@ -1,0 +1,67 @@
+<div class="main-header">
+    <div class="container">
+        <div class="row align-items-center py-3 d-flex justify-content-between">
+            <div class="col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-start">
+                <a href="home.html">
+                    <img src="https://i.postimg.cc/85b8BVH2/logo.png" alt="Logo" class="img-fluid"
+                        style="max-height: 50px;">
+                </a>
+            </div>
+
+            <div class="col-8 col-md-6 col-lg-6">
+                <form class="search-wrapper position-relative d-flex">
+                    <input id="searchInput" name="q" type="text" class="form-control border-0"
+                        placeholder="Tìm sản phẩm">
+                    <button class="btn btn-link text-decoration-none shadow-none" type="submit"
+                        onclick="event.preventDefault(); searchProducts()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-4 col-md-6 col-lg-3 d-flex justify-content-end gap-3 gap-lg-4">
+
+                <a href="account.html" class="action-item d-none d-sm-flex">
+                    <div class="action-icon-box">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <span>Tài khoản</span>
+                </a>
+
+                <a href="cart.html" class="action-item">
+                    <div class="action-icon-box">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-badge">0</span>
+                    </div>
+                    <span>Giỏ hàng</span>
+                </a>
+
+                <!-- Hamburger Button cho Mobile -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation" style="border: none; box-shadow: none;">
+                    <i class="fa-solid fa-bars" style="font-size: 24px; color: var(--primary-orange);"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu_chinh">
+    <div class="collapse d-lg-block" id="navbarMenu">
+        <div class="container">
+            <ul class="nav flex-column flex-lg-row justify-content-lg-between">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product_list.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
